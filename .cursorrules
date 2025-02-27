@@ -1,0 +1,13 @@
+# Cursor Rules for DICOM MCP Server
+
+## Project Terminology
+- MCP: Model Context Protocol - A protocol for interacting with AI models
+- This project uses the Anthropic implementation of MCP
+
+## Project Structure
+- This is a DICOM server that implements the Model Context Protocol
+- The server provides DICOM services through the MCP interface
+
+## Dependencies
+- pynetdicom: For DICOM networking functionality
+- mcp: Anthropic's Model Context Protocol implementation

@@ -1,0 +1,54 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Local configuration that might contain sensitive information
+.env
+.env.local
+
+# DICOM files that might be used for testing
+*.dcm
+
+# UV specific
+.uv/
+.uvenv/
+
+# MCP specific
+.mcp/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Test coverage
+.coverage
+htmlcov/
+
+# Configuration files
+nodes.yaml
